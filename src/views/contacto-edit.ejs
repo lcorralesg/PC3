@@ -79,7 +79,6 @@
                                         <td>
                                             <% 
                                               let fecha = new Date(contacto.fecha_nac);
-                                              fecha.setDate(fecha.getDate() + 1);
                                             %>
                                             <%= fecha.toLocaleDateString('es-ES') %>
                                         </td>
